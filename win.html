@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/43ec1e76c8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body id="bodyy">
+
+<nav>
+  <span class="container"><button onclick="toggle(logobutton, tiles)" id="logobutton"> <img id="logo" src="logo.png" alt=""></button> <img class="tiles" src="tiles1.png" alt=""> </span>
+  <h1>Mahjong Rules</h1>
+   <a class="translate" href="arabic.html">عربى</a>
+   </nav>
+   <nav class="nav2">
+   <a class="nav" href="index.html">How to play</a>
+   <a class="nav" style="background-color: lightseagreen; color: black;" href="win.html">How to win</a>
+   <a class="nav" href="setup.html">Setting up</a>
+   <a class="nav" href="calculating.html">Calculating</a>
+   </nav>
+
+
+<main>
+
+    <h2>
+      In this guide I will teach you how to win the game of Mahjong 
+    </h2>
+   
+    <p>Before beginning to learn about setting up, it’s important to note now that when playing mahjong it can only be played with only 4 players, and sometimes with 3 players which requires a few changes
+    </p>
+    <p><span>Each of the 4 seats are labelled with one of the winds, which are east, south, west and North. Also there are 4 rounds played in mahjong and each round is also labelled with a wind name, in that same order.
+
+        </span></p>
+        <p><span> is important as point calculation for the winner is dependant on their seat wind and some winning methods also take your seat wind or round wind into account, this will all make sense once you finish this guide.</span></p>
+        
+        <img class="img1" src="img11.png" alt="">
+        <p>There are two tables below, the first shows the methods of winning with closed play only. And the second table is for both hidden and open plays</p>
+<p>We recommend you start off by learning the most common easy methods of winning, which we will colour in white for you, so you don’t get too overwhelmed and can begin playing. Then you can slowly keep learning more and put them into practice
+</p>
+<p><span>P.S - The good thing about keeping your play hidden/closed without stealing, is that if you cant complete any of the methods of winning below, then you can go for 2 winning methods that don't have any requirements. </span></p>
+<p><span>The first one is called Riichi which only requires you to place an extra 1000 point bet when waiting for your last winning piece. The second one is called Tsumo which is to win by drawing your winning piece instead of stealing it
+</span></p>
+<p><span>Now take a look at both tables below and we recommend beginning with the green coloured ones as they are the most common ones
+</span></p>
+
+    <h1>Ways to win in hidden/closed play only</h1>
+<p><span class="div">Click the question mark on the right for an example</span></p>    <table class="table">
+      <tbody>
+        <tr>
+          <td><strong>Name</strong></td>
+          <td><strong>Explanation</strong></td>
+          <td><strong>"Han" Worth</strong></td>
+          <td class="help"></td>
+
+          
+        </tr>
+        <tr>
+          <td>Riichi/Ready Hand</td>
+          <td>
+            When you are in tenpai (which means waiting for your last piece/s to
+            win) then place an extra thousand point bet (if you don't win, you
+            lose your bet to the winner)
+          </td>
+          <td>1</td>
+          
+          <td class="helpbutton"></td>
+
+        </tr>
+        <tr>
+          <td>Tsumo/Self Draw</td>
+          <td>Drawing your winning piece off the wall without stealing it</td>
+          <td>1</td>          
+          <td class="helpbutton"></td>
+        </tr>
+        <tr>
+          <td>Iipeikou/Double Sequences</td>
+          <td>
+            2 sequence combinations that are identical (same numbers and same
+            suit/shape)
+          </td>
+          <td>1</td>          
+          <td><button onclick="toggle(firstbutton, firstp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="one" src="onee.png" alt="">   </span></button></td>
+        </tr>
+        <tr>
+          <td>Chiitoitsu/Seven pairs</td>
+          <td>
+            Seven Pairs (This is one of the ways to win that does not follow the
+            usual build of 4 combintions of 3 and a pair)
+          </td>
+          <td>2</td>          
+          <td><button onclick="toggle(secondbutton, secondp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="two" src="twoo.png" alt="">   </span></button></td>
+        </tr>
+        <tr>
+          <td>Ryanpei/2 sets of Double sequences</td>
+          <td>
+            Same as the previously mentioned- (Double sequences) but twice so 4
+            identical sequences in total (the other 2 can be in a different
+            suit/shape)
+          </td>
+          <td>3</td>          
+          <td><button onclick="toggle(thirdbutton, thirdp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="three" src="threee.png" alt="">   </span></button></td>
+        </tr>
+        <tr>
+          <td>Kokushi Musou/13 Orphans</td>
+          <td>
+            One of each piece ending (meaning the endings for numbers 1 and 9
+            and supervision) there are 13 pieces of ending because there are
+            three shapes for the number 1 and also 9, and there are three types
+            of dragon and four directions, that's 13 pieces, and you must win 14
+            so it must be pair of pieces)
+          </td>
+          <td>Yakuman (which means 8000 points without calculation)</td> 
+          <td><button onclick="toggle(fourthbutton, fourthp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="four" src="fourr.png" alt="">   </span></button></td>                                
+        </tr>
+        <tr>
+          <td>Suuankou/4 concealed triplets</td>
+          <td>
+            All 4 of your combinations are triplets and are all closed/hidden
+          </td>
+          <td>Yakuman</td>          
+          <td><button onclick="toggle(fifthbutton, fifthp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="five" src="fivee.png" alt="">   </span></button></td>
+        </tr>
+      </tbody>
+    </table>
+   
+    <br>
+
+
+
+
+
+
+
+
+
+
+    <h1>Ways to win in both open and hidden play</h1>
+
+    <table class="table">
+      <tbody>
+        <tr>
+          <td><strong>Name</strong></td>
+          <td><strong>Explanation</strong></td>
+          <td><strong>"Han" worth</strong></td>          <td class="help"></td>
+
+        </tr>
+        <tr>
+          <td>Tanyao/All Simples</td>
+          <td>
+            All the pieces used in your build are simples (which means pieces
+            between 2 and 8, including 2 and 8 of course)
+          </td> 
+
+
+
+          
+          <td>1</td>     
+          <td><button onclick="toggle(sixthbutton, sixthp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="six" src="sixx.png" alt="">   </span></button></td>
+        </tr>
+        <tr>
+
+
+
+
+
+
+          <td>Yakuhai/Value Tiles</td>
+          <td>
+            Atleast one of your combinations is made up of honor tiles - Which
+            are dragons or directions (P.S There are 4 rounds in Mahjong and
+            each round is labelled with one of the 4 directions being- East,
+            South, West and North in that order. Also all 4 seats the player sit
+            in are labelled with a direction. So to complete this win, the
+            direction must match the your seat or current round direction)
+          </td>
+          <td>1</td>          
+          <td><button onclick="toggle(seventhbutton, seventhp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="seven" src="sevenn.png" alt="">   </span></button></td>
+        </tr>
+        <tr>
+          <td>Haitei Raoyue/Last Draw</td>
+          <td>Win by Drawing the last remaining piece of the wall</td>
+          <td>1</td>         
+          <td class="helpbutton"></td>
+        </tr>
+        <tr>
+          <td>Houtei Raoyui/Last Steal</td>
+          <td>Win by stealing the last piece discarded by another player</td>
+          <td>1</td>          
+          <td class="helpbutton"></td>
+        </tr>
+        <tr>
+          <td>Chan Kan/Stealing a Quad</td>
+          <td>
+            Winning using the piece that another player made a quad with, at the
+            moment it was stolen by them (A quad also known as Kan is a
+            combination of 4 identical peices)
+          </td>
+          <td>1</td>          
+          <td class="helpbutton"></td>
+        </tr>
+        <tr>
+          <td>Sanshoku/3 Coloured sequences</td>
+          <td>
+            Three sequence combinations with the same numbers but in 3 different
+            suits/shapes
+          </td>
+          <td>2 (lose 1 han if opened)</td>          
+          <td><button onclick="toggle(eighthbutton, eighthp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="eight" src="eightt.png" alt="">   </span></button></td>
+        </tr>
+        <tr>
+          <td>Sandoukou/3 Coloured triplets</td>
+          <td>
+            Three triplet combinations with the same numbers but in 3 different
+            suits/shapes
+          </td>
+          <td>2</td>         
+          <td><button onclick="toggle(ninethbutton, ninethp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="nine" src="ninee.png" alt="">   </span></button></td>
+        </tr>
+        <tr>
+          <td>Ittsuu/Straight</td>
+          <td>
+            Having the tiles 1 to 9 in the same suit/shape (this must be done as
+            3 sequences being - 123,456,789)
+          </td>
+          <td>2 (lose 1 han if opened)</td>         
+          <td><button onclick="toggle(tenthbutton, tenthp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="ten" src="tenn.png" alt="">   </span></button></td>
+        </tr>
+        <tr>
+          <td>Toitoi/All Triplets</td>
+          <td>
+            All of your 4 combinations are triplets, with a pair of courses
+          </td>
+          <td>2</td>          
+          <td><button onclick="toggle(eleventhbutton, eleventhp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="eleven" src="elevenn.png" alt="">   </span></button></td>
+        </tr>
+        <tr>
+          <td>Chanta/Terminal or Honor</td>
+          <td>
+            All 4 combinations and the pair must contain atleast one terminal or
+            honor tile (terminal tiles are the 1's and 9's and the honor tiles
+            are the dragongs and directions, as mentioned previously)
+          </td>
+          <td>2 (lose 1 han if opened)</td>          
+          <td><button onclick="toggle(twelvthbutton, twelvthp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="twelve" src="twelvee.png" alt="">   </span></button></td>
+        </tr>
+        <tr>
+          <td>Honroutou/Only Terminals or Honors</td>
+          <td>
+            All pieces are only Terminals or honors and nothing else (Terminals
+            are 1 and 9 and honors are dragons and directions)
+          </td>
+          <td>2</td>          
+          <td><button onclick="toggle(thirteenthbutton, thirteenthp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="thirteen" src="thirteenn.PNG" alt="">   </span></button></td>
+        </tr>
+        <tr>
+          <td>Sanankou/3 Concealed triplets</td>
+          <td>3 of your combinations must be hidden/closed triplets</td>
+          <td>2</td>         
+          <td class="helpbutton"></td>
+        </tr>
+        <tr>
+          <td>Sankantsu/Three kans</td>
+          <td>
+            Steal 3 quads (A quad also known as Kan is a combination of 4
+            identical peices)
+          </td>
+          <td>2</td>         
+          <td class="helpbutton"></td>
+        </tr>
+        <tr>
+          <td>Junchan/Terminal in each combo</td>
+          <td>
+            All 4 combinations and the pair must all contain atleast one
+            terminal piece (Terminal peices are 1 and 9)
+          </td>
+          <td>3 (lose 1 han if opened)</td>         
+          <td><button onclick="toggle(fourteenthbutton, fourteenthp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="fourteen" src="fourteenn.PNG" alt="">   </span></button></td>
+        </tr>
+        <tr>
+          <td>Honitsu/Half flush</td>
+          <td>
+            All pieces used including the pair are in the same suit/shape and
+            some honor tiles/dragons or directions
+          </td>
+          <td>3 (lose 1 han if opened)</td>         
+          <td><button onclick="toggle(fifteenthbutton, fifteenthp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="fifteen" src="fifteenn.PNG" alt="">   </span></button></td>
+        </tr>
+        <tr>
+          <td>Chinitsu/Flush</td>
+          <td>
+            All pieces used including the pair must have the same suit/shape
+            only
+          </td>
+          <td>6 (loses one han if opened)</td>         
+          <td><button onclick="toggle(sixteenthbutton, sixteenthp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="sixteen" src="file:///Users/admin/Documents/mahjong%20rules/sixteenn.png" alt="">   </span></button></td>
+        </tr>
+        <tr>
+          <td>Tsuuiisou/All Honors</td>
+          <td>
+            All pieces used including the pair are all honor tiles only (Honor
+            tiles are the dragons and directions)
+          </td>
+          <td>Yakuman</td>          
+          <td><button onclick="toggle(seventeenthbutton, seventeenthp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="seventeen" src="seventeenn.png" alt="">   </span></button></td>
+        </tr>
+        <tr>
+          <td>Chinro/All Terminals</td>
+          <td>
+            All pieces used including the pair are all Terminal tiles only
+            (Terminal tiles 1 and 9)
+          </td>
+          <td>Yakuman</td>          
+          <td><button onclick="toggle(eighteenthbutton, eighteenthp)" class="helpbutton">
+            <span class="div"><img class="help" src="help.png" alt="">     
+            <img class="eighteen" src="eighteenn.png" alt="">   </span></button></td>
+        </tr>
+      </tbody>
+    </table>
+  
+    <footer></footer>
+    </main>
+
+<script src="script.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

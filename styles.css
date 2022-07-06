@@ -1,0 +1,556 @@
+main {
+  margin: 1vh;
+  padding-top: 100px;
+}
+ul li:before {
+  content: "-";
+  text-indent: -20px;
+  list-style-type: none;
+}
+body {
+  margin: 0vh;
+  background-color: bisque;
+}
+.img1 {
+  width: 95vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img6 {
+  width: 45vw;
+  margin-left: 30vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p::before {
+  content: "- ";
+  text-indent: 20px;
+}
+p {
+  margin-left: 13px;
+}
+
+p,
+h1,
+h2,
+h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4,
+span {
+  color: brown;
+}
+h1 {
+  font-style: italic;
+  text-decoration: underline;
+}
+h1 {
+  font-size: 3vh;
+}
+h2 {
+  font-size: 2.8vh;
+}
+
+#logo {
+  height: 8.5vh;
+  width: 8.5vh;
+}
+
+table {
+  border-collapse: collapse;
+
+  background-color: rgb(57, 187, 154);
+}
+tr:nth-child(2),
+tr:nth-child(3),
+tr:nth-child(3),
+tr:nth-child(3) {
+  background-color: rgb(253, 249, 249);
+}
+td {
+  border: 1px solid black;
+}
+.table2 {
+  margin-top: 30px;
+}
+strong {
+  font-size: 20px;
+}
+.list {
+  font-weight: bold;
+  background-color: rgba(105, 189, 192, 0.315);
+  padding: 1vw;
+}
+.translate {
+  width: 7vh;
+  height: 4vh;
+  background-color: black;
+  color: wheat;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid black 1px;
+  font-size: 22px;
+  border-radius: 100px;
+  text-align: center;
+  margin-right: 1.5vw;
+}
+.nav {
+  width: 12vh;
+  height: 4vh;
+  background-color: black;
+  color: wheat;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid black 1px;
+  font-size: 15px;
+  border-radius: 100px;
+  text-align: center;
+  margin-right: 1.5vw;
+  align-items: center;
+  display: grid;
+}
+.nav2 {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  top: 68px;
+  padding: 1vw;
+
+  background-color: black;
+}
+
+tr td:nth-child(2) {
+  width: 500vw;
+}
+
+.translate:hover {
+  background-color: rgb(44, 42, 42);
+  transition: ease 0.35s;
+  color: whitesmoke;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(56, 194, 175);
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  z-index: 1;
+}
+
+#logobutton {
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.tiles {
+  display: none;
+  position: absolute;
+  left: -1vw;
+  width: 310px;
+}
+.numbers {
+  font-size: 3vh;
+  color: black;
+}
+
+.help {
+  height: 3vh;
+  width: 3vh;
+}
+tr td:nth-child(3) {
+  padding: 0vw;
+}
+tr td:nth-child(4) {
+  background-color: bisque;
+  border: bisque solid;
+}
+footer {
+  margin-top: 20px;
+}
+
+.helpbutton {
+  background-color: bisque;
+  border: transparent;
+  width: 1vw;
+  height: 1vw;
+  margin-right: 2vw;
+}
+
+.helpbutton {
+  cursor: pointer;
+}
+
+.div {
+  position: relative;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.eight,
+.nine,
+.ten,
+.eleven,
+.twelve,
+.thirteen,
+.fourteen,
+.fifteen,
+.sixteen,
+.seventeen,
+.eighteen {
+  display: none;
+  position: absolute;
+  right: 0vh;
+  bottom: -4vh;
+  height: 18vw;
+  width: 99vw;
+}
+.seven {
+  display: none;
+  position: absolute;
+  right: 0vh;
+  bottom: -5vh;
+  height: 28vw;
+  width: 99vw;
+}
+
+footer {
+  margin-top: 20vw;
+}
+
+@media screen and (min-width: 630px) {
+  main {
+    margin: 1vw;
+    padding-top: 12.5vw;
+  }
+  body {
+    margin: 0vw;
+    background-color: bisque;
+  }
+  p,
+  h1,
+  h2,
+  h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h4,
+  span {
+    color: brown;
+  }
+  h1 {
+    font-style: italic;
+    text-decoration: underline;
+  }
+  h1 {
+    font-size: 3vw;
+  }
+  h2 {
+    font-size: 2.8vw;
+  }
+
+  #logo {
+    height: 8.5vw;
+    width: 8.5vw;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+  td {
+    border: 1px solid black;
+  }
+  .table2 {
+    margin-top: 2vw;
+  }
+  strong {
+    font-size: 2.5vw;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .translate {
+    width: 7.8vw;
+    height: 4.5vw;
+    background-color: black;
+    color: wheat;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid black 1px;
+    font-size: 3.2vw;
+    border-radius: 100px;
+    text-align: center;
+    margin-right: 1.5vw;
+  }
+
+  tr td:nth-child(2) {
+    width: 500vw;
+  }
+
+  .translate:hover {
+    background-color: rgb(44, 42, 42);
+    transition: ease 0.35s;
+    color: whitesmoke;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(56, 194, 175);
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 1;
+  }
+  .nav {
+    width: 13vw;
+    height: 4vw;
+    background-color: black;
+    color: wheat;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    border: solid black 1px;
+    font-size: 2.3vw;
+    border-radius: 100px;
+    text-align: center;
+    margin-right: 1.5vw;
+    display: grid;
+  }
+  .nav2 {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 8.5vw;
+    padding: 1vw;
+    height: 3.5vw;
+    background-color: black;
+  }
+
+  #logobutton {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+  }
+
+  .tiles {
+    display: none;
+    position: absolute;
+    left: 0vw;
+    width: 500px;
+  }
+  .numbers {
+    font-size: 3vw;
+    color: black;
+  }
+
+  .help {
+    height: 25px;
+    width: 25px;
+  }
+  tr td:nth-child(3) {
+    padding: 0vw;
+  }
+  tr td:nth-child(4) {
+    background-color: bisque;
+    border: bisque solid;
+  }
+  footer {
+    margin-top: 20px;
+  }
+
+  .helpbutton {
+    background-color: bisque;
+    border: transparent;
+    width: 1vw;
+    margin-right: 2vw;
+  }
+
+  .helpbutton {
+    cursor: pointer;
+  }
+
+  .div {
+    position: relative;
+  }
+
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six,
+  .eight,
+  .nine,
+  .ten,
+  .eleven,
+  .twelve,
+  .thirteen,
+  .fourteen,
+  .fifteen,
+  .sixteen,
+  .seventeen,
+  .eighteen {
+    display: none;
+    position: absolute;
+    right: 4vw;
+    bottom: -6vw;
+    height: 17vw;
+    width: 90vw;
+  }
+  .seven {
+    display: none;
+    position: absolute;
+    right: 4vw;
+    bottom: -9vw;
+    height: 26vw;
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  h4,
+  p {
+    font-size: 2vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  main {
+    margin-top: 2vw;
+    margin-bottom: 0.5vw;
+    margin-right: 23vw;
+    margin-left: 1vw;
+    padding-top: 100px;
+  }
+
+  .img1 {
+    width: 90%;
+    margin-left: 1vw;
+    display: block;
+  }
+  .img6 {
+    width: 50%;
+    margin-left: 1vw;
+    display: block;
+  }
+
+  h4,
+  p {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+
+  #logo {
+    height: 10vh;
+    width: 10vh;
+  }
+
+  table {
+    border-collapse: collapse;
+
+    background-color: rgb(19, 184, 143);
+    font-size: 20px;
+  }
+
+  .translate {
+    width: 9vh;
+    height: 4.5vh;
+    background-color: black;
+    color: wheat;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid black 1px;
+    font-size: 23px;
+    border-radius: 100px;
+    text-align: center;
+    margin-right: 1.5vw;
+  }
+  .nav {
+    width: 16vh;
+    height: 4vh;
+    background-color: black;
+    color: wheat;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    border: solid black 1px;
+    font-size: 18px;
+    border-radius: 100px;
+    text-align: center;
+    margin-right: 1.5vw;
+    display: grid;
+  }
+  .nav2 {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    top: 68px;
+    padding: 1vw;
+    height: 4vh;
+    background-color: black;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(56, 194, 175);
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 10vh;
+    z-index: 1;
+  }
+
+  .tiles {
+    display: none;
+    position: absolute;
+    left: 0vw;
+    width: 530px;
+  }
+
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six,
+  .eight,
+  .nine,
+  .ten,
+  .eleven,
+  .twelve,
+  .thirteen,
+  .fourteen,
+  .fifteen,
+  .sixteen,
+  .seventeen,
+  .eighteen {
+    display: none;
+    position: absolute;
+    right: 0vh;
+    bottom: -4vh;
+    height: auto;
+    width: 680px;
+  }
+  .seven {
+    display: non;
+    position: absolute;
+    right: 0vh;
+    bottom: -5vh;
+    height: auto;
+    width: 680px;
+  }
+}
